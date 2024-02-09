@@ -1,0 +1,134 @@
+table{
+    width: 40%;
+    height: 200px;
+    border: 2pt solid rgb(255, 0, 0);
+}
+td{
+    border: 2pt solid rgb(255, 0, 0);
+    text-align: start;
+}
+#tabel1 tr:nth-child(1) td:nth-child(1){
+    background-color: rgb(201, 99, 155);
+}
+#tabel1 tr:nth-child(1) td:nth-child(2){
+    background-color: rgb(87, 79, 79);
+}
+#tabel1 tr:nth-child(1) td:nth-child(3){
+    background-color: rgb(201, 99, 155);
+}
+#tabel1 tr:nth-child(2) td:nth-child(1){
+    background-color: rgb(255, 0, 179);
+}
+#tabel1 tr:nth-child(2) td:nth-child(2){
+    background-color: rgb(163, 206, 255);
+}
+#tabel1 tr:nth-child(2) td:nth-child(3){
+    background-color: rgb(255, 196, 0);
+}
+/*--------------------------------------Eesti lipp---------------------*/
+#eesti{
+    width: 330px; /*40% ekrani laiust*/
+    height: 210px;
+    border: 2pt solid rgb(0, 0, 0);
+    border-spacing: 0;
+}
+#eesti td{
+    border:0;
+}
+/*1.rida*/
+#eesti tr:nth-child(1) {
+    background-color: blue;
+    }
+/*2.rida*/
+#eesti tr:nth-child(2) {
+    background-color: black;
+    }
+/*3.rida*/
+#eesti tr:nth-child(3) {
+    background-color: white;
+    }
+/*--------------------------------------Soome lipp---------------------*/
+#soome{
+    width: 330px; /*40% ekrani laiust*/
+    height: 210px;
+    border: 1pt solid rgb(0, 0, 0);
+    border-spacing: 0;
+}
+#soome td{
+    border:0;
+}
+/*1.rida 1.lahter ja 3.rida 1.lahter*/
+#soome tr:nth-child(1) td:nth-child(1)
+#soome tr:nth-child(3) td:nth-child(1) {
+    background-color: white;  
+    width: 15%
+    }
+/*2.rida*/
+#soome tr:nth-child(2) {
+    background-color: blue;
+    height:"20%";
+}
+#soome tr:nth-child(1) td:nth-child(2),
+#soome tr:nth-child(3) td:nth-child(2) {
+    background-color:blue;
+    width: 15%;
+}
+/*1.rida 3.lahter ja 3.rida 3.lahter*/
+#soome tr:nth-child(1) td:nth-child(3),
+#soome tr:nth-child(3) td:nth-child(3) {
+    background-color:white;
+}
+/*-------------------------------------------------------palett----------------------*/
+#palett{
+    width: 330px; /*40% ekraani laiust*/
+    height: 210px; /*pikkus*/
+    border: 1pt black;
+    border-spacing: 0;
+}
+#pallet td{
+    border: 0;
+}
+#palett tr:nth-child(1){
+    background-color: red;
+}
+#palett tr:nth-child(2){
+    background-color: blue;
+}
+#palett tr:nth-child(3){
+    background-color: blueviolet;
+}
+/*-----------------french--------------*/
+#french{
+    width: 330px; /*40% ekrani laiust*/
+    height: 210px;
+    border: 2pt solid black
+    border-spacing: 0;
+}
+#french td{
+    border: 0;
+}
+#french tr:nth-child(1) td:nth-child(1){
+    background-color: blue;
+}
+#french tr:nth-child(1) td:nth-child(2){
+    background-color: rgb(255, 255, 255);
+}
+#french tr:nth-child(1) td:nth-child(3){
+    background-color: rgb(255, 0, 0);
+}
+/*------------polish--------------*/
+#polish{
+    width: 330px;
+    height: 210px;
+    border: 2pt solid black
+    border-spacing: 0;
+}
+#polish td{
+    border:0;
+}
+#polish tr:nth-child(1) td:nth-child(1){
+    background-color: rgb(255, 255, 255);
+}
+#polish tr:nth-child(1) td:nth-child(1){
+    background-color: rgb(255, 0, 0);
+}
